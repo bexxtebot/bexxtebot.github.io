@@ -1,0 +1,5 @@
+hover elements that explain commands
+
+remove cooldown tags, put generic disclaimer that some commands have cooldowns 2-10; try again later lol be patient
+
+fewer tweets on mobile

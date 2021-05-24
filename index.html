@@ -1,7 +1,160 @@
+<!DOCTYPE html>
+<!--
+Written by Michael Saunders
+20 May 2021
+@tonichaelmight
+-->
 <html>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="bexxters, bexxtebot">
+	<title>BexxteBot Command List</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap" rel="stylesheet">
+	<link href="reset.css" rel="stylesheet" type="text/css" />
+	<link href="bexxtebot.css" rel="stylesheet" type="text/css" />
+</head>
+
 <body>
-    <h1>Hello World!</h1>
+	<script src="script.js">
+
+	</script>
+
+  <header>
+    <div class="pageTitle">
+      <h1>BexxteBot Commands</h1>
+    </div>
+    <p class="dots">&#8226; &#8226; <span class="dot3">&#8226;</span></p>
+  </header>
+	
+
+	<section class="outside">
+
+		<!-- container that holds the separate lists -->
+		<section class="commands">
+			<article class="command-list">
+				<h3 class="category">GENERAL</h3>
+				<ul>
+          <li><p data="Provides a link to the BTTV site and shows all the emotes you can use if you download it!">!bttv</p></li>
+          <li><p data="Provides a link to this page. This is probably how you got here">!commands</p></li>
+					<li><p data="Provides a link to Bexxter's Discord server">!discord</p></li>
+          <li><p data="Encourages viewers to smash that like">!follow</p></li>
+          <li><p data="Let everyone know you're taking a step away from stream for a while">!lurk</p></li>
+          <li><p data="Provides a link to the playlist of the day">!music</p></li>
+          <li><p data="Encourages viewers to link their Amazon Prime account for one free sub per month">!prime</p></li>
+          <li><p data="A thank you message for when we get raided; also encourages viewers to remove '?referrer=raid' from the url">!raid</p> <span class="key">[M]</span></li>
+          <li><p data="Shoutout another streamer to spread the love!">!so</p> <em>username</em> <span class="key">[M]</span></li>
+          <li><p data="Encourages viewers to subscribe to support the channel">!sub</p></li>
+          <li><p data="Calculates how long the stream has been live">!uptime</p></li>    
+          <li><p data="Gives a short spiel about the kind of streamer Bexxters is">!whomst</p></li>    
+        </ul>
+      </article>
+
+      <article class="command-list">
+        <h3 class="category">SPECIAL</h3>
+        <ul>
+          <li><p data="Ask BexxteBot to ban another user (she can't do it, but you can ask)">!ban</p> <em>username</em></li>
+          <li><p data="Black Lives Matter">!blm</p></li>
+          <li><p data="Displays a content warning for the current game if one has been designated">!cw</p></li>
+          <li><p data="Classic literary moment referenced here">!stap</p></li>
+          <li><p data="Let the streamer know she's MUTED">!mute</p></li>
+          <li><p data="BexxteBot can give you a premade raid message based on one of the moods below">!raiding</p> <em>mood</em> <span class="key">[M]</span></li>
+          <ul class="sublist">
+            <li><img class="emote-smol" src="/images/bexxteGun-smol.png" /><p data="Fight club">aggro</p></li>
+            <li><img class="emote-smol" src="/images/bexxteCozy-smol.png" /><p data="Chill">cozy</p></li>
+            <li><img class="emote-smol" src="/images/bexxteLove-smol.png" /><p data="Use this for a general Kindred Kiwi Raid">kiwi</p></li>
+            <li><img class="emote-smol" src="/images/bexxteLove-smol.png" /><p data="Basic raid message using the love emote">love</p></li>
+            <li><img class="emote-smol" src="/images/bexxteBop-smol.png" /><p data="Basic raid message using the bop emote">vibe</p></li>
+          </ul>
+          <li><p data="WELCOME">!welcome</p></li>
+        </ul>
+      </article>
+
+      <article class="command-list">
+        <h3 class="category">EXPERIMENTAL</h3>
+        <ul>
+          <li><p data="BexxteBot will tell you a little bit about herself">!bexxtebot</p></li>
+          <li><p data="Say hello to another user, but with BexxteBot as your personal liason">!hello</p> <em>username</em></li>
+          <li><p data="Links to social media channels owned by THE bexxters">!socials</p></li>
+          <li><p data="Apply within to be validated">!validate</p></li>
+        </ul>
+      </article>
+
+      <article class="command-list">
+        <h3 class="category">COOL PEOPLE</h3>
+        <ul>
+          <li><p data="HER ART IS SO GOOD YOU ALL BETTER CHECK HER OUT">!marta</p></li>
+          <li><p data=";o">!michael</p></li>
+          <li><p data="BexxteBae">!tim</p></li>
+          <li><p data="@BrooCat">!yackie</p></li>
+        </ul>
+      </article>
+
+      <article class="command-list">
+        <h3 class="category">PLANNED (THEREFORE, WILL NOT WORK)</h3>
+        <ul>
+          <li><p data="We are working on creating a customized 8ball for BexxteBot">!8ball</p></li>
+          <li><p data="This command will automatically clip stream and post the link in chat">!clip</p></li>
+          <li><p data="Opposite of validate, BexxteBot gets to be mean >:)">!drag</p></li>
+          <li><p data="Get a fortune cookie style saying">!fortune</p></li>
+          <li><p data="Will start a game of hangman in the chat">!hangman</p></li>
+        </ul>
+      </article>
+      
+      <article class="command-list">
+        <h3 class="category">KEY</h3>
+        <ul>
+          <li><span class="key">[M]</span>: Mod Only</li>
+        </ul>
+        <img class="bexxte-love" src="/images/bexxteLove.png" alt="bexxteLove">
+        <div style="clear: both"></div>
+      </article>
+
+    </section>
+
+
+    <!-- NOTES -->
+    <section class="notes">
+      <h2 class="notes-header">Note:</h2>
+
+      <ol class="notes-list">
+        <li>Hover over (or tap on mobile) a command name to read about its function.
+        <li>Many commands operate on a cooldown (between 2 and 10 seconds) to prevent the chat from getting cluttered; if a command does not work the first time, wait a few seconds and try again.</li>
+      </ol>
+    </section>
+
+    
+
+    <!-- embeds twitch feed -->
+    <section class="tweets">
+        
+      <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">daily reminder that my friends are so smart and talented.</p>&mdash; Supreme Nerdlord (@Bexterkins) <a href="https://twitter.com/Bexterkins/status/1395937843193827329?ref_src=twsrc%5Etfw">May 22, 2021</a></blockquote> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">hey google, when will any character I like get a happy ending?</p>&mdash; Supreme Nerdlord (@Bexterkins) <a href="https://twitter.com/Bexterkins/status/1384365142260002817?ref_src=twsrc%5Etfw">April 20, 2021</a></blockquote> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">I was asked to explain the entire Kingdom Hearts timeline tonight on stream and honestly I feel like I melted my brain trying to piece it together. I also feel like I sound like a delusional conspiracy theorist ranting about the alien darkness overlords</p>&mdash; Supreme Nerdlord (@Bexterkins) <a href="https://twitter.com/Bexterkins/status/1382163360138006529?ref_src=twsrc%5Etfw">April 14, 2021</a></blockquote> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Can we get Trixie Mattel as a killer in Dead By Daylight?</p>&mdash; Michael (@tonichaelmight) <a href="https://twitter.com/tonichaelmight/status/1381462395739062277?ref_src=twsrc%5Etfw">April 12, 2021</a></blockquote> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">I will have to say, with cons not being a thing for awhile, I haven’t seen an ahegao shirt without my consent and I consider that a win</p>&mdash; Baby tiger 🐯 @ PuppyLove🌹🐍 (@TORACHl) <a href="https://twitter.com/TORACHl/status/1381222981721075714?ref_src=twsrc%5Etfw">April 11, 2021</a></blockquote> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      <div style="clear: both;"></div>
+
+    </section>
+    
+  </section>
+
+  <footer>
+    <p>created by @tonichaelmight &#169;2021</p>
+  </footer>
+
 </body>
 
 </html>
