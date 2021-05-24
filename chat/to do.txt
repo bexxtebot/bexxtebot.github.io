@@ -1,0 +1,37 @@
+BexxteBot tingz
+
+In progress:
+!fortune
+A page specifically for you to edit things, without having to dig around (playlist, turn commands on/off, etc) 
+!commands - command list
+
+
+Ideas:
+!a command to search live channels with a tag or playing a particular game
+!a command with game descriptions 
+!blackjack with bexxtebot as dealer - (need to check TOS)
+!hangman
+!8ball - customized
+!bekka quotes ('people are the leading cause of murder') (crowdsource??)
+! - roulette that bans you temporarily lol (prob just a timeout lol)
+!clip
+!drag (opp of validate)
+!team command that searches for live team members
+
+
+Planned:
+!counters for chat activity - (!bop - horny counter)
+
+
+
+
+Planned, but for like way later:
+Moderation
+Making all commands (easily) editable by end user
+
+Discord bot
+
+Twitter bot
+
+
+try redoing js GETS
