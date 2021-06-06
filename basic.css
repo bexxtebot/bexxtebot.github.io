@@ -27,3 +27,7 @@ body {
     padding: 1rem;
     font-weight: bold;
   }
+
+  a {
+      text-decoration: none;
+  }

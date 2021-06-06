@@ -1,11 +1,23 @@
-@media only screen and (max-width: 504px) {
+section {
+    border: 5px solid rgb(42, 4, 59);
+    background-image: linear-gradient(to bottom right, rgb(184, 146, 199), rgb(66, 13, 87));
+    border-radius: 7px;
+    max-width: 1000px;
+    min-height: 600px;
+    padding: 20px;
+    margin: 20px auto 40px;
+}
 
-    section.commands {
-      margin: -10px 0 0;
-      display: block;
-      border: 10px solid rgb(42, 4, 59);
-      border-radius: 15px;
-    }
+article {
+    border: 3px solid rgb(70, 9, 99);
+    background-color: rgb(215, 177, 245);
+    border-radius: 5px;
+    padding: 20px;
+    flex-grow: 1;
+    color: black;
+}
+
+@media only screen and (max-width: 504px) {
   
     div.pageTitle {
       background-image: linear-gradient(160deg, 
@@ -44,12 +56,14 @@
       font-size: 36px;
       line-height: 0.8;
       color: rgb(139, 76, 184);
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: black;
+      text-shadow: 1px 0 black,
+                   0 1px black,
+                   -1px 0 black,
+                   0 -1px black;
     }
   
     span.dot3 {
-      color: rgb(202, 32, 32);
+      color: rgb(51, 31, 226);
     }
   
     body {
@@ -64,22 +78,8 @@
       background-color: rgb(238, 213, 248);
     }
   
-    section.notes {
-      background-color: rgb(238, 213, 248);
-      margin: 0 0 -10px;
-      padding: 40px;
-      border: 10px solid rgb(42, 4, 59);
-      border-radius: 15px;
-      position: relative;
-      top: -10px;
-    }
-  
-    ol.notes-list > li {
-      font-size: 16px;
-    }
-  
   }
-  
+
 
   @media only screen and (max-width: 409px) {
     div.pageTitle > h1 {
