@@ -1,0 +1,88 @@
+@media only screen and (max-width: 504px) {
+
+    section.commands {
+      margin: -10px 0 0;
+      display: block;
+      border: 10px solid rgb(42, 4, 59);
+      border-radius: 15px;
+    }
+  
+    div.pageTitle {
+      background-image: linear-gradient(160deg, 
+      rgb(80, 62, 95) 0%, 
+      rgb(170, 143, 192) 35%, 
+      rgb(63, 43, 78) 100%);
+      border: 5px solid rgb(42, 4, 59);
+      border-radius: 7px;
+      height: 80%;
+      margin: 0;
+    }
+  
+    div.pageTitle > h1 {
+      font-size: 28px;
+      margin: 0;
+      padding: 20px 10px;
+      font-weight: 700;
+      font-family: "Roboto Mono", monospace;
+      text-shadow: 0px 0px 15px white;
+      color: rgb(59, 22, 102);
+      -webkit-text-stroke: 0.5px rgb(216, 191, 245);
+    }
+  
+    header {
+      margin: 0;
+      padding: 20px 20px 0;
+      width: auto;
+      background-color: rgb(212, 172, 245);
+      border: 10px solid rgb(42, 4, 59);
+      border-radius: 15px;
+    }
+  
+    p.dots {
+      text-align: right;
+      margin-right: 25px;
+      font-size: 36px;
+      line-height: 0.8;
+      color: rgb(139, 76, 184);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  
+    span.dot3 {
+      color: rgb(202, 32, 32);
+    }
+  
+    body {
+      background-color: rgb(42, 4, 59);
+    }
+  
+    header > p {
+      display: block;
+    }
+  
+    footer {
+      background-color: rgb(238, 213, 248);
+    }
+  
+    section.notes {
+      background-color: rgb(238, 213, 248);
+      margin: 0 0 -10px;
+      padding: 40px;
+      border: 10px solid rgb(42, 4, 59);
+      border-radius: 15px;
+      position: relative;
+      top: -10px;
+    }
+  
+    ol.notes-list > li {
+      font-size: 16px;
+    }
+  
+  }
+  
+
+  @media only screen and (max-width: 409px) {
+    div.pageTitle > h1 {
+      font-size: 24px;
+    }
+  }

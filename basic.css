@@ -1,0 +1,29 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: rgb(238, 213, 248);
+  }
+
+  header {
+    margin: 1rem auto;
+    width: 95%;
+    text-align: center;
+    color: rgb(92, 7, 122);
+  }
+
+  header > p {
+    display: none;
+  }
+
+  div.pageTitle > h1 {
+    font-size: 2.4rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+  }

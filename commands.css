@@ -4,22 +4,6 @@ Written by Michael Saunders
 @tonichaelmight
 */
 
-body {
-  font-family: Roboto, sans-serif;
-  background-color: rgb(238, 213, 248);
-}
-
-header {
-  margin: 20px auto;
-  width: 95%;
-  text-align: center;
-  color: rgb(92, 7, 122);
-}
-
-header > p {
-  display: none;
-}
-
 section.commands {
   border: 5px solid rgb(42, 4, 59);
   background-image: linear-gradient(to bottom right, rgb(184, 146, 199), rgb(66, 13, 87));
@@ -172,10 +156,6 @@ ul.sublist {
   font-size: 18px;
 }
 
-div.pageTitle > h1 {
-  font-size: 48px;
-}
-
 h3.category {
   text-align: center;
   font-size: 28px;
@@ -205,17 +185,6 @@ blockquote.twitter-tweet {
   display: none;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  font-weight: bold;
-}
-
-/*
-iframe#twitter-widget-0 {
-  
-}
-*/
 
 em {
   font-style: italic;
