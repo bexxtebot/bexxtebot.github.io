@@ -266,6 +266,7 @@ strong {
 
   footer {
     background-color: rgb(238, 213, 248);
+    border-top: 40px solid white;
   }
 
   section.notes {
