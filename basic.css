@@ -22,11 +22,26 @@ div.pageTitle > h1 {
   font-size: 2.4rem;
 }
 
+main::after {
+  display: block;
+  height: 1.5rem;
+  width: 100%;
+  content: ' ';
+}
+
 footer {
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem 0;
   font-weight: bold;
   box-shadow: 0 1px 15px black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(238, 213, 248);
+}
+
+footer p {
+  font-size: 1rem;
 }
 
 a {

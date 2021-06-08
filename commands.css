@@ -10,18 +10,18 @@ section.commands {
   border-radius: 7px;
   max-width: 1000px;
   min-height: 600px;
-  padding: 20px;
-  margin: 20px auto 40px;
+  padding: 1rem;
+  margin: 1rem auto 2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: stretch;
-  gap: 20px;
+  gap: 1rem;
 }
 
 section.notes {
   font-family: Roboto, sans-serif;
-  margin: 0 40px 40px;
+  margin: 0 2rem 2rem;
   max-width: 960px;
 }
 
@@ -34,12 +34,12 @@ ol.notes-list {
 ol.notes-list > li {
   font-family: Roboto, sans-serif;
   font-weight: 300;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 section.tweets {
-  padding: 20px 20px;
+  padding: 1rem;
   border-top: 40px solid white;
   border-bottom: 40px solid white;
   margin: 0 auto;
@@ -59,9 +59,10 @@ article.command-list {
   border: 3px solid rgb(70, 9, 99);
   background-color: rgb(215, 177, 245);
   border-radius: 5px;
-  padding: 20px;
+  padding: 1rem;
   flex-grow: 1;
   color: black;
+  position: relative;
 }
 
 article.command-list > ul {
@@ -71,7 +72,7 @@ article.command-list > ul {
 }
 
 article.command-list > ul > li {
-  font-size: 18px;
+  font-size: 0.9rem;
 }
 
 ul > li > p, ul > li > em {
@@ -80,9 +81,9 @@ ul > li > p, ul > li > em {
 }
 
 h2.notes-header {
-  font-size: 24px;
+  font-size: 1.2rem;
   text-decoration: underline;
-  margin-bottom: 15px;
+  margin-bottom: 0.75rem;
 }
 
 p[data] {
@@ -101,7 +102,7 @@ p[data]:after {
   bottom: 130%;
   width: 225px;
   background: rgb(243, 231, 178);
-  padding: 7px 15px;
+  padding: 0.35rem 0.75rem;
   color: black;
   border-radius: 7px;
   border: 2px solid black;
@@ -110,7 +111,7 @@ p[data]:after {
 }
 
 ul.sublist > li > p[data]:after {
-  left: -35px;
+  left: -1.75rem;
 }
 
 /* triangle */
@@ -151,29 +152,32 @@ span.key {
 
 ul.sublist {
   position: relative;
-  left: 12px;
-  font-size: 18px;
+  left: 0.6rem;
+  font-size: 0.9rem;
 }
 
 h3.category {
   text-align: center;
-  font-size: 28px;
+  font-size: 1.4rem;
   text-decoration: underline;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
 }
 
 img.bexxte-love {
-  height: 75px;
-  width: 75px;
-  position: relative;
-  top: 20px;
-  left: 20px;
+  height: 3.75rem;
+  width: 3.75rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   display: inline-block;
-  float: right;
+  margin: 0 0.25rem 0.25rem 0;
+  padding: 0.25rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background-color: rgba(130, 255, 255, 0.5);
 }
 
 img.emote-smol {
-  margin-right: 5px;
+  margin-right: 0.25rem;
 }
 
 div.twitter-tweet {
@@ -183,6 +187,7 @@ div.twitter-tweet {
 blockquote.twitter-tweet {
   display: none;
 }
+
 
 
 em {
@@ -196,12 +201,16 @@ strong {
 
 @media only screen and (min-width: 1081px) {
   section.notes {
-    margin: 40px auto;
+    margin: 2rem auto;
   }
 }
 
 
 @media only screen and (max-width: 504px) {
+
+  main::after {
+    height: 0;
+  }
 
   section.commands {
     margin: -10px 0 0;
@@ -221,9 +230,9 @@ strong {
   }
 
   div.pageTitle > h1 {
-    font-size: 28px;
+    font-size: 1.4rem;
     margin: 0;
-    padding: 20px 10px;
+    padding: 1rem 0.5rem;
     font-weight: 700;
     font-family: "Roboto Mono", monospace;
     text-shadow: 0px 0px 15px white;
@@ -233,7 +242,7 @@ strong {
 
   header {
     margin: 0;
-    padding: 20px 20px 0;
+    padding: 1rem 1rem 0;
     width: auto;
     background-color: rgb(212, 172, 245);
     border: 10px solid rgb(42, 4, 59);
@@ -242,8 +251,8 @@ strong {
 
   p.dots {
     text-align: right;
-    margin-right: 25px;
-    font-size: 36px;
+    margin-right: 1.25rem;
+    font-size: 1.8rem;
     line-height: 0.8;
     color: rgb(139, 76, 184);
     text-shadow: 1px 0 black,
@@ -265,14 +274,15 @@ strong {
   }
 
   footer {
-    background-color: rgb(238, 213, 248);
     border-top: 40px solid white;
+    position: initial;
+    padding: 1rem 0;
   }
 
   section.notes {
     background-color: rgb(238, 213, 248);
     margin: 0 0 -10px;
-    padding: 40px;
+    padding: 2rem;
     border: 10px solid rgb(42, 4, 59);
     border-radius: 15px;
     position: relative;
@@ -280,7 +290,7 @@ strong {
   }
 
   ol.notes-list > li {
-    font-size: 16px;
+    font-size: 0.8rem;
   }
 
 }
@@ -289,7 +299,7 @@ strong {
 
 @media only screen and (max-width: 1080px) and (min-width: 505px) {
   section.commands {
-    margin: 20px 20px 40px;
+    margin: 1rem 1rem 2rem;
   }
 }
 
@@ -297,6 +307,15 @@ strong {
 
 @media only screen and (max-width: 409px) {
   div.pageTitle > h1 {
-    font-size: 24px;
+    font-size: 1.2rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  img.bexxte-love {
+    height: 2.5rem;
+    width: 2.5rem;
   }
 }
