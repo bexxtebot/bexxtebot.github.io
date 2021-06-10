@@ -46,18 +46,24 @@ footer p {
 
 a {
   text-decoration: none;
-  color: rgb(221, 170, 208);
-  text-shadow: 1px 1px black;
-  transition: text-shadow 1s, 
+  text-shadow: 0 0 5px rgb(140, 140, 140);
+  color: rgb(161, 235, 255);
+  transition: text-shadow 0.5s, 
               color 0.5s;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 a:visited {
-  color: rgb(224, 86, 190);
+  color: rgb(205, 105, 223);
+  text-shadow: none;
 }
 
 a:hover {
-  text-shadow: 1px 1px 4px black;
-  color: rgb(77, 202, 230);
+  text-shadow: 0 0 5px rgb(91, 91, 91);
+  color: rgb(195, 244, 255);
 }
+
+p {
+  letter-spacing: 0.5px;
+}
+
