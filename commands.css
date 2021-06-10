@@ -57,7 +57,7 @@ section.tweets {
 
 article.command-list {
   border: 3px solid rgb(70, 9, 99);
-  background-color: rgb(215, 177, 245);
+  background-color: rgba(225, 193, 250, 0.8);
   border-radius: 5px;
   padding: 1rem;
   flex-grow: 1;

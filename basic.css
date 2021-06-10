@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: rgb(238, 213, 248);
+  background-color: rgb(246, 225, 255);
 }
 
 header {
@@ -46,7 +46,7 @@ footer p {
 
 a {
   text-decoration: none;
-  text-shadow: 0 0 5px rgb(140, 140, 140);
+  text-shadow: 0 0 4px rgb(140, 140, 140);
   color: rgb(161, 235, 255);
   transition: text-shadow 0.5s, 
               color 0.5s;
@@ -54,7 +54,7 @@ a {
 }
 
 a:visited {
-  color: rgb(205, 105, 223);
+  color: rgb(151, 95, 160);
   text-shadow: none;
 }
 
