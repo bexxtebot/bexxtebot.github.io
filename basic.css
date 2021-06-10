@@ -48,12 +48,13 @@ a {
   text-decoration: none;
   text-shadow: 0 0 4px rgb(140, 140, 140);
   color: rgb(161, 235, 255);
-  transition: text-shadow 0.5s, 
-              color 0.5s;
+  transition: text-shadow 0.5s ease, 
+              color 0.5s ease;
   font-weight: 500;
 }
 
 a:visited {
+  text-shadow: 0 0 4px rgb(140, 140, 140);
   color: rgb(151, 95, 160);
 }
 
