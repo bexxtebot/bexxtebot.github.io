@@ -1,0 +1,136 @@
+/*
+  color names chosen with aid of https://colornamer.robertcooper.me/
+*/
+
+:root {
+  /*   
+    palette colors from bekka
+    #c0b5f8
+    #9c6aff
+    #cb8efa
+    #bcb5d4
+    #d7c6e7 
+  */
+    --purple-illusion: hsl(250, 83%, 84%);
+    --purple-hedonist: hsl(260, 100%, 71%);
+    --liliac: hsl(274, 92%, 77%);
+    --purple-heather: hsl(254, 26%, 77%);
+    --foggy-love: hsl(271, 41%, 84%);
+  
+    /* possible highlights from emotes
+    #c20057
+    #f83593
+    #ffc2fd
+    #382555
+    #553a64
+    #2f513d
+    #87b578
+    #ffd752
+    #3e3332
+  */
+    --scarlet-cattleya-orchid: hsl(333, 100%, 38%);
+    --unicorn-dust: hsl(331, 93%, 59%);
+    --distilled-rose: hsl(302, 100%, 88%);
+    --stormy-night: hsl(263, 39%, 24%);
+    --majesty: hsl(278, 26%, 31%);
+    --goblin: hsl(146, 27%, 25%);
+    --hakusai-green: hsl(105, 29%, 59%);
+    --habanero-gold: hsl(46, 100%, 66%);
+    --blackest-brown: hsl(5, 10%, 22%);
+    --classical-white: hsl(39, 49%, 86%);
+    --classical-white-faded: hsla(39, 49%, 86%, 0.5);
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    background-color: var(--purple-hedonist);
+    font-family: sans-serif;
+    padding: 0.75rem;
+  }
+  
+  #modal {
+    position: relative;
+    padding: 0.75rem;
+    margin: 0 auto;
+    max-width: 40rem;
+    border: 5px solid var(--stormy-night);
+    background-color: var(--purple-illusion);
+    box-shadow: 5px 5px 2px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  #command-container {
+    margin-top: 0.75rem;
+    border: 2px solid var(--majesty);
+    background-color: var(--purple-heather);
+    padding: 0.75rem;
+  }
+  
+  #command-list {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    height: 42rem;
+    width: 100%;
+  }
+  
+  .command {
+    padding: 0.75rem;
+    border: 2px solid var(--scarlet-cattleya-orchid);
+    background-color: var(--unicorn-dust);
+    max-width: 50%;
+    flex: 1 1 1rem;
+  }
+  
+  .command-title {
+    font-size: 1.75rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .command-description {
+    font-size: 1.25rem;
+  }
+  
+  
+  
+  @media screen and (max-width: 625px) {
+    html {
+      font-size: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    html {
+      font-size: 10px;
+    }
+  
+    body {
+      padding: 0;
+    }
+  
+    #modal {
+      box-shadow: none;
+      max-width: none;
+      border-width: 10px;
+    }
+  
+    #command-list {
+      height: auto;
+    }
+  
+    .command {
+      max-width: none;
+    }
+  }
